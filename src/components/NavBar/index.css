@@ -1,0 +1,53 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 10px;
+}
+.navbar-menu-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  flex-basis: 100%;
+}
+.img-title-container {
+  display: flex;
+  justify-content: center;
+}
+.emoji-logo {
+  width: 25px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 50px;
+    height: 75px;
+  }
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+}
+.score-container {
+  display: flex;
+}
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 25px;
+  }
+}
